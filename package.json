@@ -1,0 +1,32 @@
+{
+  "name": "docparser",
+  "version": "0.0.1",
+  "description": "parses comment docs",
+  "main": "src/parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mientjan/docparser.git"
+  },
+  "keywords": [
+    "javadoc",
+    "commentblock",
+    "docs"
+  ],
+  "author": "Mient - Jan Stelling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mientjan/docparser/issues"
+  },
+  "homepage": "https://github.com/mientjan/docparser",
+  "devDependencies": {
+    "glob": "^4.4.1"
+  },
+  "dependencies": {
+    "comment-parser": "^0.3.0",
+    "comment-regex": "^1.0.0",
+    "glob": "^4.4.1"
+  }
+}
